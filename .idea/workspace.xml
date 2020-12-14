@@ -37,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDK Location" />
@@ -116,5 +117,23 @@
       <updated>1607929550434</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="899" y="287" key="CommitChangelistDialog2" timestamp="1607931088661">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="899" y="287" key="CommitChangelistDialog2/0.25.2560.1330@0.25.2560.1330" timestamp="1607931088661" />
+    <state x="1127" y="587" key="Github.ShareDialog" timestamp="1607931121761">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1127" y="587" key="Github.ShareDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1607931121761" />
+    <state x="781" y="326" key="SettingsEditor" timestamp="1607931254950">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="781" y="326" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1607931254950" />
+    <state x="880" y="427" key="Vcs.Push.Dialog.v2" timestamp="1607931102747">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="880" y="427" key="Vcs.Push.Dialog.v2/0.25.2560.1330@0.25.2560.1330" timestamp="1607931102747" />
   </component>
 </project>
