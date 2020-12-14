@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="70dp"
+            android:gravity="center"
+            android:text="Step 1/5"
+            android:textColor="@android:color/background_light"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="70dp"
+            android:gravity="center"
+            android:text="What is your purpose?"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/hover"
+            android:drawableLeft="@drawable/w"
+            android:onClick="onClickW"
+            android:paddingLeft="200px"
+            android:paddingRight="200px"
+            android:text="Weight loss"
+            android:textAllCaps="false"
+            android:textColor="#6E9CD2"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="50px"
+            android:background="@drawable/hover"
+            android:drawableLeft="@drawable/k"
+            android:paddingLeft="200px"
+            android:paddingRight="200px"
+            android:text="Keeping fit"
+            android:textAllCaps="false"
+            android:textColor="#6E9CD2"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="50px"
+            android:background="@drawable/hover"
+            android:drawableLeft="@drawable/b"
+            android:paddingLeft="200px"
+            android:paddingRight="200px"
+            android:text="Build muscle"
+            android:textAllCaps="false"
+            android:textColor="#6E9CD2"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
